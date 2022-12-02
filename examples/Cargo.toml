@@ -1,0 +1,9 @@
+[package]
+name = "opensergo-rust-sdk-example"
+version = "0.0.1"
+edition = '2018'
+publish = false
+
+[dependencies]
+opensergo-rust-sdk = { path = "../opensergo-sdk"}
+env_logger = "0.9"

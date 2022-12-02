@@ -1,0 +1,25 @@
+[package]
+name = "opensergo-rust-sdk"
+version = "0.0.1"
+authors = ["Jiangnan Jia <jnan0806@gmail.com>", "OpenSergo Authors"]
+edition = "2018"
+license = "Apache-2.0"
+description = "The rust version of OpenSergo SDK"
+homepage = "https://www.opensergo.io"
+documentation = "https://docs.rs/opensergo-rust-sdk/latest"
+readme = "README.md"
+repository = "https://github.com/opensergo/opensergo-rust-sdk"
+categories = ["microservices", "opensergo"]
+keywords = ["microservices", "opensergo-sdk"]
+include = ["src/**/*", "Cargo.toml"]
+exclude = []
+
+[dependencies]
+log = "0.4"
+
+[lib]
+doctest = false
+
+[[example]]
+name = "example"
+path = "../examples/src/main.rs"
